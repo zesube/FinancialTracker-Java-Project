@@ -1,0 +1,25 @@
+=== Personal Expenses Calculator ===
+User: Cadeau
+Income: $3200.00
+Expenses: $2100.00
+Net: $1100.00
+Budget Limit: $2000.00
+Budget Spent: $2100.00
+Remaining Budget: $-100.00
+Goal Progress (Emergency Fund): 40.00%
+
+Transactions:
+- 2026-02-25 | INCOME | Uncategorized | $3200.00 | Paycheck
+- 2026-02-25 | EXPENSE | Housing | $1200.00 | Rent
+- 2026-02-25 | EXPENSE | Food | $180.00 | Groceries
+- 2026-02-25 | EXPENSE | Utilities | $220.00 | Electric + Internet
+- 2026-02-25 | EXPENSE | Food | $500.00 | Extra groceries + supplies
+
+Expense Totals by Category:
+- Housing: $1200.00
+- Food: $680.00
+- Utilities: $220.00
+
+Notifications:
+- You are over budget.
+- Welcome! Your tracker is ready.
