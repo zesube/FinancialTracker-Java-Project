@@ -13,13 +13,30 @@ This project is a Java OOP financial tracker focused on private and simple expen
 - `ExpenseTrackerService`
 - `DashboardSummary`
 - `TransactionType` (enum)
+- `FinancialTrackerUI` (frontend preview)
 
-## Build and Run
+## Build
 
 ```bash
-rm -rf out
 javac -d out $(find src -name "*.java")
+```
+
+## Run (Console)
+
+```bash
 java -cp out com.financialtracker.app.Main
+```
+
+## Run (Frontend Preview)
+
+```bash
+java -cp out com.financialtracker.app.Main --ui
+```
+
+You can also launch the UI class directly:
+
+```bash
+java -cp out com.financialtracker.app.FinancialTrackerUI
 ```
 
 ## What the Program Produces
@@ -30,6 +47,7 @@ java -cp out com.financialtracker.app.Main
 - Full transaction list with category labels
 - Expense totals by category
 - Notifications (budget alerts, app alerts)
+- Frontend preview window with dashboard, tables, and notifications
 
 ## UML
 
@@ -43,4 +61,4 @@ See [docs/UML.md](docs/UML.md) for the class diagram that matches the implemente
 - `Results`: output demonstrates required financial tracking behavior with test data.
 - `Coding Style & UML`: consistent formatting, comments, and UML included.
 - `GitHub`: push this folder to your repository and submit the repo URL.
-- `Screenshots`: capture the program output using test data.
+- `Screenshots`: capture console output and frontend preview using test data.
